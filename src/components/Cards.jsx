@@ -12,7 +12,7 @@ export default function Cards() {
         <a href={"MercedesG63"}>
           {" "}
           <Card
-            className="shadow-xl h-[700px] mx-auto  bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:mb-[10px] sm:w-[393px] my-[100px]"
+            className="shadow-xl h-[700px] mx-auto  bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:h-[730px] xs:mb-[10px] sm:w-[393px] my-[100px]"
             //   style={{ boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
           >
             <Divider className="mt-[-5px]">Preview</Divider>
@@ -34,7 +34,7 @@ export default function Cards() {
 
               <a href={"MercedesG63"}>
                 {" "}
-                <BiJoystickButton className="text-3xl my-auto mx-[5px]" />
+                <BiJoystickButton className="text-4xl my-auto mx-[5px]" />
               </a>
             </div>
 
@@ -50,7 +50,7 @@ export default function Cards() {
           </Card>
         </a>
         <a href={"BMWM6"}>
-          <Card className=" shadow-xl mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:my-[10px]  sm:sm:w-[393px] md:mt-[100px] xl:h-[715px] ">
+          <Card className=" shadow-xl mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:my-[10px] xs:h-[730px] sm:sm:w-[393px] md:mt-[100px] xl:h-[715px] ">
             <Divider className="mt-[-5px]">Preview</Divider>
             <Iframe
               url="/BMWM6"
@@ -70,7 +70,7 @@ export default function Cards() {
               </p>
               <a href={"BMWM6"}>
                 {" "}
-                <BiJoystickButton className="text-3xl my-auto mx-[5px]" />
+                <BiJoystickButton className="text-4xl my-auto mx-[5px]" />
               </a>
             </div>
             <p className="text-tremor-metric text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">
@@ -87,7 +87,7 @@ export default function Cards() {
         <a href={"PorscheGT3"}>
           {" "}
           <Card
-            className=" shadow-xl h-[700px] mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:my-[10px] sm:w-[393px] my-[100px] md:w-[775px] xl:w-[393px] xl:my-[100px]"
+            className=" shadow-xl h-[700px] mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:h-[730px] xs:my-[10px] sm:w-[393px] my-[100px] md:w-[775px] xl:w-[393px] xl:my-[100px]"
             //   style={{ boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
           >
             <Divider className="mt-[-5px]">Preview</Divider>
@@ -105,11 +105,11 @@ export default function Cards() {
 
             <div className="flex flex-row justify-between">
               <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">
-                Porsche GT3
+                PORSCHE GT3
               </p>
               <a href={"PorscheGT3"}>
                 {" "}
-                <BiJoystickButton className="text-3xl my-auto mx-[5px]" />
+                <BiJoystickButton className="text-4xl my-auto mx-[5px]" />
               </a>
             </div>
             <p className="text-tremor-metric text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">
