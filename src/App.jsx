@@ -17,7 +17,7 @@ function App() {
     <main
       className="
     bg-black relative
-    main
+    main overflow-x-hidden 
     "
     >
       <Router>

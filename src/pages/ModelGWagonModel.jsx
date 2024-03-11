@@ -39,7 +39,7 @@ function ModelGWagon() {
   }, [window.onload]);
   const [carScale, carPosition, carRotation] = adjustCarForScreenSize(); //pass these variables to Car component as props
   return (
-    <section className="w-full h-[100vh] relative bg-[#F9F6EE] z-10 ">
+    <section className="w-full h-[100vh] relative bg-[#F9F6EE] z-10 overflow-hidden">
       <SideBar />
       <StatsCard />
       <Canvas

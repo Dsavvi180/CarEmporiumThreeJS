@@ -1,9 +1,10 @@
 import { Card, Divider } from "@tremor/react";
 import Iframe from "react-iframe";
+import { BiJoystickButton } from "react-icons/bi";
 
 export default function Cards() {
   return (
-    <div className="flex flex-col justify-center align-middle z-10  mb-[60px] xs:mt-[100px] sm:mt-[200px] ">
+    <div className="flex flex-col justify-center align-middle z-10  mb-[60px] xs:mt-[100px] sm:mt-[200px] ov ">
       <h1 className="font-extralight text-3xl pb-3 border-b-[1px] mx-auto text-center border-b-[#c88921] xs:w-[250px] sm:w-[400px]">
         3D MODELS
       </h1>
@@ -26,9 +27,17 @@ export default function Cards() {
               overflow="hidden"
             />
             <Divider>Model</Divider>
-            <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">
-              BMW M6 GT3 2018
-            </p>
+            <div className="flex flex-row justify-between">
+              <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">
+                MERCEDES BENZ G63
+              </p>
+
+              <a href={"MercedesG63"}>
+                {" "}
+                <BiJoystickButton className="text-3xl my-auto mx-[5px]" />
+              </a>
+            </div>
+
             <p className="text-tremor-metric text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">
               $44,670
             </p>
@@ -54,9 +63,16 @@ export default function Cards() {
               overflow="hidden"
             />
             <Divider>Model</Divider>
-            <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">
-              BMW M5
-            </p>
+
+            <div className="flex flex-row justify-between">
+              <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">
+                BMW M5
+              </p>
+              <a href={"BMWM6"}>
+                {" "}
+                <BiJoystickButton className="text-3xl my-auto mx-[5px]" />
+              </a>
+            </div>
             <p className="text-tremor-metric text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">
               $34,743
             </p>
@@ -86,9 +102,16 @@ export default function Cards() {
               overflow="hidden"
             />
             <Divider>Model</Divider>
-            <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">
-              Porsche GT3
-            </p>
+
+            <div className="flex flex-row justify-between">
+              <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">
+                Porsche GT3
+              </p>
+              <a href={"PorscheGT3"}>
+                {" "}
+                <BiJoystickButton className="text-3xl my-auto mx-[5px]" />
+              </a>
+            </div>
             <p className="text-tremor-metric text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">
               $54,450
             </p>
