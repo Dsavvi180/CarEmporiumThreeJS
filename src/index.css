@@ -154,8 +154,7 @@ body {
   .parallax-background {
     position: absolute;
     top: 95px;
-    width: 100%;
-    height: 100%; /* Larger height for parallax effect */
+    /* Larger height for parallax effect */
     object-fit: cover;
     transform: translateZ(0); /* GPU acceleration */
   }
@@ -164,7 +163,7 @@ body {
     position: relative;
     width: 100%;
     /* text-align: end; */
-    top: 30vh; /* Center vertically */
+    /* top: 30vh; Center vertically */
     transform: translateY(-50%); /* Adjust based on your layout */
     color: white; /* Text color */
     /* Text size */

@@ -19,7 +19,7 @@ const Banner = () => {
       <img
         src={bannerImage}
         alt="Banner"
-        className="parallax-background"
+        className="parallax-background xs:w-[100%] xs:h-[85%] md:w-[100%] md:h-[100%]"
         style={{
           transform: `translateY(-${offsetY * -0.3}px)`, // Adjust the multiplier as needed
         }}
@@ -28,13 +28,17 @@ const Banner = () => {
         style={{
           transform: `translateX(${offsetY * 1}px)`, // Adjust the multiplier as needed
         }}
-        className="parallax-title "
+        className="parallax-title xs:top-[27vh] sm:top-[30vh]"
       >
         {" "}
-        <div className="flex flex-col gap-3 text-center ">
+        <div className="flex flex-col gap-3 text-center">
           {" "}
-          <h1 className="font-extralight text-3xl">EMBRACE E-VOLUTION.</h1>
-          <h2 className="font-extralight text-xl">Where Web3 Meets Luxury.</h2>
+          <h1 className="font-extralight xs:text-2xl sm:text-3xl">
+            EMBRACE E-VOLUTION.
+          </h1>
+          <h2 className="font-extralight xs:text-lg sm:text-xl">
+            Where Web3 Meets Luxury.
+          </h2>
         </div>
       </div>
 

@@ -25,8 +25,8 @@ function Navbar() {
   //   }, []);
 
   return (
-    <div className="w-screen absolute h-[95px] flex flex-row justify-between px-[35px] font-extralight text-l bg-[#181818] text-white">
-      <div className="flex flex-row pl-[20px] gap-[35px]">
+    <div className="w-screen absolute h-[95px] flex flex-row justify-between font-extralight text-l bg-[#181818] text-white xs:px-[17px] sm:px-[35px]">
+      <div className="xs:ml-[-25px] sm:flex flex-row pl-[20px] gap-[35px]">
         {" "}
         <img
           width="140px"
@@ -34,7 +34,7 @@ function Navbar() {
           className="h-[140px] mt-[-23px]"
           src={logo3}
         />
-        <ul className="flex flex-row gap-4 my-auto ml-[40%]">
+        <ul className="xs:hidden sm:hidden md:flex flex-row gap-4 my-auto ml-[40%] ">
           {/* <li className="pl-[25px] pr-[40px]">
           <img width="140px" src={logo2} />
         </li> */}
@@ -45,10 +45,14 @@ function Navbar() {
         </ul>
       </div>
 
-      <ul className="flex flex-row gap-4 my-auto">
-        <li className="nav-button">NFT DEVELOPMENT</li>
-        <li className="nav-button">COLLECTION</li>
-        <li className="nav-button">MARKETPLACE</li>
+      <ul className=" flex flex-row gap-4 my-auto">
+        <li className="xs:hidden md:hidden xl:flex nav-button  ">
+          NFT DEVELOPMENT
+        </li>
+        <li className="xs:hidden md:hidden xl:flex nav-button  ">COLLECTION</li>
+        <li className="xs:hidden md:hidden xl:flex nav-button  ">
+          MARKETPLACE
+        </li>
         <div className="flex flex-row m-auto gap-5 pl-[25px] font-thin text-3xl">
           <PiChatsFill />
           <GoSearch />

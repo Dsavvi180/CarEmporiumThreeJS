@@ -3,15 +3,15 @@ import Iframe from "react-iframe";
 
 export default function Cards() {
   return (
-    <div className="flex flex-col justify-center align-middle z-10 mt-[200px]">
-      <h1 className="font-extralight text-3xl border-b-[1px] pb-3 w-[400px] mx-auto text-center border-b-[#c88921] text-yellow">
+    <div className="flex flex-col justify-center align-middle z-10  mb-[60px] xs:mt-[100px] sm:mt-[200px] ">
+      <h1 className="font-extralight text-3xl pb-3 border-b-[1px] mx-auto text-center border-b-[#c88921] xs:w-[250px] sm:w-[400px]">
         3D MODELS
       </h1>
-      <div className="max-w-[1240px] max-h-[1250px] mx-auto grid md:grid-cols-3 gap-8">
+      <div className="w-auto mx-auto grid xs:h-auto sm:h-auto md:flex flex-row flex-wrap justify-center px-8 gap-8 md:w-auto ">
         <a href={"MercedesG63"}>
           {" "}
           <Card
-            className="shadow-xl h-[700px] mx-auto max-w-lg my-[100px] bg-[#F9F6EE] hover:scale-105 duration-300"
+            className="shadow-xl h-[700px] mx-auto  bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:mb-[10px] sm:w-[393px] my-[100px]"
             //   style={{ boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
           >
             <Divider className="mt-[-5px]">Preview</Divider>
@@ -20,7 +20,7 @@ export default function Cards() {
               width="346px"
               height="320px"
               id=""
-              className=""
+              className="xs:w-[292px] sm:w-[346px]"
               display="block"
               position="relative"
               overflow="hidden"
@@ -30,7 +30,7 @@ export default function Cards() {
               BMW M6 GT3 2018
             </p>
             <p className="text-tremor-metric text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">
-              $34,743
+              $44,670
             </p>
             <Divider>Description</Divider>
             <p className="mt-2 leading-6 text-tremor-default text-tremor-content dark:text-dark-tremor-content">
@@ -41,17 +41,14 @@ export default function Cards() {
           </Card>
         </a>
         <a href={"BMWM6"}>
-          <Card
-            className=" shadow-xl h-[715px] mx-auto max-w-lg  my-[100px] bg-[#F9F6EE] hover:scale-105 duration-300 "
-            //   style={{ boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
-          >
+          <Card className=" shadow-xl mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:my-[10px]  sm:sm:w-[393px] md:mt-[100px] xl:h-[715px] ">
             <Divider className="mt-[-5px]">Preview</Divider>
             <Iframe
               url="/BMWM6"
               width="346px"
               height="320px"
               id=""
-              className=""
+              className="xs:w-[292px] sm:w-[346px]"
               display="block"
               position="relative"
               overflow="hidden"
@@ -74,7 +71,7 @@ export default function Cards() {
         <a href={"PorscheGT3"}>
           {" "}
           <Card
-            className=" shadow-xl h-[700px] mx-auto max-w-lg my-[100px] bg-[#F9F6EE] hover:scale-105 duration-300"
+            className=" shadow-xl h-[700px] mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:my-[10px] sm:w-[393px] my-[100px] md:w-[775px] xl:w-[393px] xl:my-[100px]"
             //   style={{ boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
           >
             <Divider className="mt-[-5px]">Preview</Divider>
@@ -83,17 +80,17 @@ export default function Cards() {
               width="346px"
               height="320px"
               id=""
-              className=""
+              className="xs:w-[292px] sm:w-[346px] md:w-[720px] xl:w-[346px] mx-auto"
               display="block"
               position="relative"
               overflow="hidden"
             />
             <Divider>Model</Divider>
             <p className="text-tremor-default text-tremor-content dark:text-dark-tremor-content">
-              BMW M5
+              Porsche GT3
             </p>
             <p className="text-tremor-metric text-tremor-content-strong dark:text-dark-tremor-content-strong font-semibold">
-              $34,743
+              $54,450
             </p>
             <Divider>Description</Divider>
             <p className="mt-2 leading-6 text-tremor-default text-tremor-content dark:text-dark-tremor-content">

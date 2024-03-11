@@ -6,7 +6,7 @@ import { FaSquareInstagram } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <div className="flex flex-col justify-start text-start h-[450px] bg-black text-white gap-[5] p-[90px]">
+    <div className="flex flex-col justify-start text-start h-[450px] bg-black text-white gap-[5] xs:p-[35px] xs:pt-[55px] sm:p-[90px]">
       <div className="flex flex-col justify-start  ">
         <h1 className="font-medium text-3xl  ">DamenSavvi.</h1>
         <p className="font-extralight  ">Web3 Innovator</p>
