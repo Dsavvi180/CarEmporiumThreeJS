@@ -50,7 +50,7 @@ export default function Cards() {
           </Card>
         </a>
         <a href={"BMWM6"}>
-          <Card className=" shadow-xl mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:my-[10px] xs:h-[730px] sm:sm:w-[393px] md:mt-[100px] xl:h-[715px] ">
+          <Card className=" shadow-xl mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:my-[10px] xs:h-[730px] sm:sm:w-[393px] md:mt-[100px] xl:h-[745px] ">
             <Divider className="mt-[-5px]">Preview</Divider>
             <Iframe
               url="/BMWM6"
