@@ -168,4 +168,10 @@ body {
     /* Text size */
     z-index: 1; /* Ensure text is above the background */
   }
+  
+  .click-here:hover {
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: black;
+  }
 }

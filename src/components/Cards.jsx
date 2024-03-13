@@ -12,7 +12,7 @@ export default function Cards() {
         <a href={"MercedesG63"}>
           {" "}
           <Card
-            className="shadow-xl h-[700px] mx-auto  bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:h-[730px] xs:mb-[10px] sm:w-[393px] my-[100px]"
+            className="shadow-xl h-[700px] mx-auto  bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:h-[755px] xs:mb-[10px] sm:w-[393px] my-[100px]"
             //   style={{ boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
           >
             <Divider className="mt-[-5px]">Preview</Divider>
@@ -47,10 +47,15 @@ export default function Cards() {
               tempor lorem non est congue blandit. Praesent non lorem sodales,
               suscipit est sed, hendrerit dolor.
             </p>
+            <a href="MercedesG63">
+              <div className="text-xs font-light mt-4 w-[69px] click-here">
+                CLICK HERE
+              </div>
+            </a>
           </Card>
         </a>
         <a href={"BMWM6"}>
-          <Card className=" shadow-xl mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:my-[10px] xs:h-[730px] sm:sm:w-[393px] md:mt-[100px] xl:h-[745px] ">
+          <Card className=" shadow-xl mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:my-[10px] xs:h-[755px] sm:sm:w-[393px] md:mt-[100px] xl:h-[745px] ">
             <Divider className="mt-[-5px]">Preview</Divider>
             <Iframe
               url="/BMWM6"
@@ -82,12 +87,17 @@ export default function Cards() {
               tempor lorem non est congue blandit. Praesent non lorem sodales,
               suscipit est sed, hendrerit dolor.
             </p>
+            <a href="BMWM6">
+              <div className="text-xs font-light mt-4 w-[69px] click-here sm:mt-4">
+                CLICK HERE
+              </div>
+            </a>
           </Card>
         </a>
         <a href={"PorscheGT3"}>
           {" "}
           <Card
-            className=" shadow-xl h-[700px] mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:h-[730px] xs:my-[10px] sm:w-[393px] my-[100px] md:w-[775px] xl:w-[393px] xl:my-[100px]"
+            className=" shadow-xl h-[700px] mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:h-[755px] xs:my-[10px] sm:w-[393px] my-[100px] md:w-[775px] xl:w-[393px] xl:my-[100px]"
             //   style={{ boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
           >
             <Divider className="mt-[-5px]">Preview</Divider>
@@ -121,6 +131,11 @@ export default function Cards() {
               tempor lorem non est congue blandit. Praesent non lorem sodales,
               suscipit est sed, hendrerit dolor.
             </p>
+            <a href="PorscheGT3">
+              <div className="text-xs font-light mt-4 w-[69px] click-here">
+                CLICK HERE
+              </div>
+            </a>
           </Card>
         </a>
       </div>
