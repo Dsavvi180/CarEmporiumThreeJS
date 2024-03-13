@@ -12,7 +12,7 @@ export default function Cards() {
         <a href={"MercedesG63"}>
           {" "}
           <Card
-            className="shadow-xl h-[700px] mx-auto  bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:h-[755px] xs:mb-[10px] sm:w-[393px] my-[100px]"
+            className="shadow-xl h-[700px] mx-auto  bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:h-[750px] xs:mb-[10px] sm:w-[393px] my-[100px]"
             //   style={{ boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
           >
             <Divider className="mt-[-5px]">Preview</Divider>
@@ -55,7 +55,7 @@ export default function Cards() {
           </Card>
         </a>
         <a href={"BMWM6"}>
-          <Card className=" shadow-xl mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:my-[10px] xs:h-[755px] sm:sm:w-[393px] md:mt-[100px] xl:h-[745px] ">
+          <Card className=" shadow-xl mx-auto  bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:my-[10px] xs:h-[750px] sm:w-[393px] md:mt-[100px] lg:h-[750px] xl:h-[765px] ">
             <Divider className="mt-[-5px]">Preview</Divider>
             <Iframe
               url="/BMWM6"
@@ -97,7 +97,7 @@ export default function Cards() {
         <a href={"PorscheGT3"}>
           {" "}
           <Card
-            className=" shadow-xl h-[700px] mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:h-[755px] xs:my-[10px] sm:w-[393px] my-[100px] md:w-[775px] xl:w-[393px] xl:my-[100px]"
+            className=" shadow-xl h-[700px] mx-auto bg-[#F9F6EE] hover:scale-105 duration-300 xs:w-[335px] xs:h-[750px] xs:my-[10px] sm:w-[393px] my-[100px] md:w-[775px] xl:w-[393px] xl:my-[100px]"
             //   style={{ boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
           >
             <Divider className="mt-[-5px]">Preview</Divider>
